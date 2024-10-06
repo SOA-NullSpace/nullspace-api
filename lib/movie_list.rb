@@ -25,5 +25,7 @@ movies = movie_response.parse
 
 movies_yaml = movies.to_yaml
 
-File.write('../spec/fixtures/movies_results.yml', movies_yaml)
-puts 'Movie data saved to movies_results.yml'
+directory_path = '../spec/fixtures'
+file_path = "#{directory_path}/movies_results.yml"
+File.write(file_path, movies_yaml)
+puts "Movie data saved to #{file_path}"
