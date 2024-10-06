@@ -2,7 +2,14 @@
 
 To provides users in Taiwan with real-time information on movie listings, showtimes, and movie details.
 
-### Serpapi
+### TMDB API
+
+- Elements
+  - region
+- Entities
+  - Now showing movies
+
+### SerpApi
 
 - Elements
   - day
